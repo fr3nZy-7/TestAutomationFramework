@@ -1,0 +1,22 @@
+Theory -
+
+benefits of using a framework
+(folder structure in eclipse related benefits) - test engineers
+1. Reusability of code/functions
+2. Easy Maintenance 
+3. Scalability
+(benefits outside the folder structure) - test framework designers
+4. Manageable Test Data, logical segregation of test data
+5. Remove external dependencies - e.g using maven to remove jar file dependency
+6. Repository Management
+7. Build process
+8. Continuous Integration
+
+
+
+jenkins.war file command -
+java -jar jenkins.war
+
+
+devOps - 
+PLanning->Coding>Build (dev env)> unit testing> build (test env)> Testing > Release  > Deploy
