@@ -12,7 +12,7 @@ public class HomePageTests extends Driver{
 	PageHost pages;
 	
 	@Test
-	public void verifyAutomationlink()
+	public void verifyAutomobilelink()
 	{
 		pages= new PageHost(dr);
 		//Verify that we are on home page

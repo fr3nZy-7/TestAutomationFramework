@@ -25,6 +25,9 @@ public class HomePage {
 	@FindBy(linkText="Camper")
 	WebElement Camper;
 	
+	@FindBy(xpath ="//a[@id='downloadtrial']")
+	WebElement downloadTrial;
+	
 	
 	public HomePage(WebDriver dr)
 	{

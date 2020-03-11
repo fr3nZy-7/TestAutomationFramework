@@ -19,4 +19,30 @@ java -jar jenkins.war
 
 
 devOps - 
-PLanning->Coding>Build (dev env)> unit testing> build (test env)> Testing > Release  > Deploy
+Planning->Coding>Build (dev env)> unit testing> build (test env)> Testing > Release  > Deploy
+
+
+@Parameter annotation is used to pass a parameter from textng.xml file
+
+
+
+
+Framework explained ->
+
+Config file->
+Config file will contain the data which will remain same throughout the execution
+xml file will contain data that will change from one test to another test
+excel file will contain data that will change for each iteration of test case
+
+
+driver file ->
+Driver file will run before test
+xls reader is declare here as we will require the test data reader throughout the execution, no new object need to be changed
+ChromeOptions class is used to customise ChromeBrowser, similarly we have firefox and edge options class
+ 
+Library package- Application library->
+Applicaiton library will contain all reusable functions used by the application, example capture screenshot
+
+
+
+

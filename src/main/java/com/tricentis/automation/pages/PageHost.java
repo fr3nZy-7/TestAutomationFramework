@@ -11,9 +11,13 @@ public class PageHost{
 	public Automobile automobile;
 	public HomePage homePage;
 	
+	// add object of truck, camper, motorcycle
+	
 	public PageHost(WebDriver dr)
 	{
 		automobile= new Automobile(dr);
 		 homePage= new HomePage(dr);
+		 //initialize the objects here
+		 
 	}
 }

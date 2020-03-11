@@ -65,10 +65,11 @@ public class Driver {
 		dr.manage().window().maximize();
 	}
 	
-	@AfterClass
-	public void tearDown()
-	{
-		dr.quit();
-	}
-
+	  @AfterClass public void tearDown() {
+		  
+		 // dr.quit(); 
+		  //close will close current window , which is focused by the driver 
+		  //quit will close all the windows opened by driver 
+		 }
+	 
 }
